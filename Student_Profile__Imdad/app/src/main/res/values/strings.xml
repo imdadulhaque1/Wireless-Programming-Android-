@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Student_Profile___DIU</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Imdadul Haque</string>
+    <string name="nav_header_subtitle">imdadul15-1440@diu.edu.bd</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_contactInfo">Contact Information</string>
+    <string name="menu_calculator">Calculator</string>
+    <string name="menu_datePicker">Time Picker</string>
+    <string name="menu_currencyConverter">Currency Converter</string>
+
+    <!-- Profile fragmentation -Varsity-->
+    <string name="my_name">Name: Imdadul Haque</string>
+    <string name="my_id">ID: 171-15-1440</string>
+    <string name="my_email">Email: imdadul15-1440@diu.edu.bd</string>
+    <string name="my_dept">Dept_Name: Bsc in CSE</string>
+    <string name="my_versity">University_Name: Daffodil International University, Permanent Campus, Dhaka.</string>
+
+    <!-- Profile fragmentation -College-->
+    <string name="my_college">College_Name: Agroni School and College, RUET campus, Rajshahi</string>
+
+    <!-- Profile fragmentation -School-->
+    <string name="my_school">School_Name: Nado sayed-pur JK high school, Tarash, Sirajgonj</string>
+
+    <!-- Contact information -->
+    <string name="phoneNo">Mobile: 01773-964101</string>
+    <string name="A_email">Academic Email: imdadul15-1440@diu.edu.bd</string>
+    <string name="P_email">Personal Email: imdadulhaqueimdad820@gmail.com</string>
+    <string name="Google_link">sites.google.com/view/imdadulhaque-diu</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

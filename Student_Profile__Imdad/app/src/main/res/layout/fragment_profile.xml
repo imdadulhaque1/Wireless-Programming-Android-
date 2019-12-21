@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile"
+    android:background="@color/cardview_shadow_start_color"
+    android:orientation="vertical"
+
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/my_name"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/my_id"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/my_email"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/my_dept"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        />
+
+
+    <ImageView
+        android:layout_width="176dp"
+        android:layout_height="72dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/diu" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/my_versity"
+        android:textSize="20dp"
+        android:layout_marginTop="3dp"
+        />
+
+    <ImageView
+        android:layout_width="176dp"
+        android:layout_height="72dp"
+        android:background="@drawable/agro"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/my_college"
+        android:textSize="20dp"
+        android:layout_marginTop="3dp"
+        />
+
+    <ImageView
+        android:layout_width="176dp"
+        android:layout_height="72dp"
+        android:background="@drawable/nado"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/my_school"
+        android:textSize="20dp"
+        android:layout_marginTop="3dp"
+        />
+
+</LinearLayout>

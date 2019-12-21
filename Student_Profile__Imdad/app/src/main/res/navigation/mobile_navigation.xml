@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.student_profile___diu.Home"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.student_profile___diu.Profile"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.student_profile___diu.Contact_Info"
+        android:label="@string/menu_contactInfo"
+        tools:layout="@layout/fragment_contact__info" />
+
+    <fragment
+        android:id="@+id/nav_tools"
+        android:name="com.example.student_profile___diu.Calculator"
+        android:label="@string/menu_calculator"
+        tools:layout="@layout/fragment_calculator" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.example.student_profile___diu.DatePicker"
+        android:label="@string/menu_datePicker"
+        tools:layout="@layout/fragment_date_picker" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.example.student_profile___diu.Currency_Converter"
+        android:label="@string/menu_currencyConverter"
+        tools:layout="@layout/fragment_currency__converter" />
+</navigation>
